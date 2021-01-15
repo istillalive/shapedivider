@@ -10,9 +10,11 @@
   height: 100vh;
   background: url("bg.jpg");
   background-size: cover;
+  .left {
+    margin: 0 5%;
+  }
   p {
     font-size: 48px;
-    margin-left: 40px;
   }
   .large {
     font-size: 72px;
@@ -21,7 +23,15 @@
   .small {
     font-weight: 500;
   }
-  button {
-    margin-left: 40px;
+
+  .right {
+    margin: 0 5%;
+
+    height: 100%;
+    width: 100%;
+    .lottie-player {
+      height: 100%;
+      width: 0 auto;
+    }
   }
 }

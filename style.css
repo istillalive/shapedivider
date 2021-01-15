@@ -20,9 +20,12 @@
   background-size: cover;
 }
 
+.landing-page .left {
+  margin: 0 5%;
+}
+
 .landing-page p {
   font-size: 48px;
-  margin-left: 40px;
 }
 
 .landing-page .large {
@@ -34,7 +37,14 @@
   font-weight: 500;
 }
 
-.landing-page button {
-  margin-left: 40px;
+.landing-page .right {
+  margin: 0 5%;
+  height: 100%;
+  width: 100%;
+}
+
+.landing-page .right .lottie-player {
+  height: 100%;
+  width: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
