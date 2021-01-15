@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("bg.jpg");
+  background-size: cover;
+  p {
+    font-size: 48px;
+    margin-left: 40px;
+  }
+  .large {
+    font-size: 72px;
+    font-weight: 700;
+  }
+  .small {
+    font-weight: 500;
+  }
+  button {
+    margin-left: 40px;
+  }
+}
